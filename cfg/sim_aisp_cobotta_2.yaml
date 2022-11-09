@@ -1,0 +1,12 @@
+"thread_sampling_time_nsec": 4000000
+"use_real_robot": false
+"robot_driver_interface_node_prefixes": []
+#Vrep Parameters
+"vrep_port": 20011
+"vrep_dynamically_enabled": true
+"vrep_robot_joint_names": ["Cobotta1_rjointb","Cobotta1_pjointb","Cobotta1_rjoint1","Cobotta1_rjoint2","Cobotta1_rjoint3","Cobotta1_rjoint4","Cobotta1_rjoint5","Cobotta1_rjoint6"]
+
+# This value is replaced by the enviroment variable VREP_IP
+"vrep_ip": "0.0.0.0"
+# This value is replaced by the enviroment variable ROBOT_2_JSON_PATH
+"robot_parameter_file_path": "dummy.json"

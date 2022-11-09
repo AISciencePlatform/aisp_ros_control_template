@@ -1,0 +1,10 @@
+<launch>
+
+<include file="$(find aisp_ros_control_template)/launch/sim_aisp_cobotta_1.launch"/>
+<include file="$(find aisp_ros_control_template)/launch/sim_aisp_cobotta_2.launch"/>
+<include file="$(find aisp_ros_control_template)/launch/sim_aisp_vs050_1.launch"/>
+<include file="$(find aisp_ros_control_template)/launch/sim_aisp_vs050_2.launch"/>
+
+<include file="$(find aisp_ros_control_template)/launch/sas_robot_kinematics_constrained_multiarm.launch"/>
+
+</launch>

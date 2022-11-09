@@ -1,0 +1,10 @@
+<launch>
+<node pkg="sas_robot_driver" type="sas_robot_driver_ros_composer_node" name="arm2">
+<rosparam file="$(find moonshot_control)/cfg/sim_aisp_cobotta_2.yaml" command="load"/>
+<!-- Use Enviroment Variable -->
+<rosparam subst_value="true">
+    vrep_ip: $(env VREP_IP)
+    robot_parameter_file_path: $(env ROBOT_2_JSON_PATH)
+</rosparam>
+</node>
+</launch>
