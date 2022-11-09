@@ -52,12 +52,12 @@ sudo make install
 ```
 
 
-## 1. [Install SmartArmStack](https://github.com/SmartArmStack/smart_arm_stack_researchonly/releases/tag/v22.11.8150150)
+## [Install SmartArmStack](https://github.com/SmartArmStack/smart_arm_stack_researchonly/releases/tag/v22.11.8150150)
 
 Download and run the file [ros-noetic-sas-robot-kinematics-constrained-multiarm_22.11.8150150-0focal_amd64.deb](https://github.com/SmartArmStack/smart_arm_stack_researchonly/releases/download/v22.11.8150150/ros-noetic-sas-robot-kinematics-constrained-multiarm_22.11.8150150-0focal_amd64.deb).
 
 
-## 2. Set the enviroment variables for your particular system
+## Set the enviroment variables for your particular system
 
 
 |Variable| Meaning |
