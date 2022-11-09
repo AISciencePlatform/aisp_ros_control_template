@@ -80,3 +80,27 @@ echo 'export ROBOT_2_JSON_PATH="/home/moonshot/git/moonshot_robot_pc/catkin_ws/s
 echo 'export ROBOT_3_JSON_PATH="/home/moonshot/git/moonshot_robot_pc/catkin_ws/src/moonshot_control/robots/aisp_vs050_robot_1.json"' >> ~/.bashrc
 echo 'export ROBOT_4_JSON_PATH="/home/moonshot/git/moonshot_robot_pc/catkin_ws/src/moonshot_control/robots/aisp_vs050_robot_2.json"'  >> ~/.bashrc
 ```
+
+## Clone this repository
+
+```shell
+git clone https://github.com/AISciencePlatform/aisp_ros_control_template.git
+```
+
+### Open the CoppeliaSim scene
+
+bla bla bla
+
+### Start the simulation
+
+###
+
+```shell
+roslaunch aisp_ros_control_template run_simulation.launch --screen
+```
+
+###
+
+```shell
+rosrun roslaunch aisp_ros_control_template aisp_kinematic_control_example.py
+```
