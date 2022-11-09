@@ -49,12 +49,16 @@ cd build
 cmake ..
 make -j20
 sudo make install
+sudo ldconfig
 ```
 
 
 ## [Install SmartArmStack](https://github.com/SmartArmStack/smart_arm_stack_researchonly/releases/tag/v22.11.8150150)
 
-Download and run the file [ros-noetic-sas-robot-kinematics-constrained-multiarm_22.11.8150150-0focal_amd64.deb](https://github.com/SmartArmStack/smart_arm_stack_researchonly/releases/download/v22.11.8150150/ros-noetic-sas-robot-kinematics-constrained-multiarm_22.11.8150150-0focal_amd64.deb).
+```shell
+wget https://raw.githubusercontent.com/SmartArmStack/smart_arm_stack/main/install.sh
+sh install.sh
+```
 
 
 ## Set the enviroment variables for your particular system
@@ -70,7 +74,7 @@ Download and run the file [ros-noetic-sas-robot-kinematics-constrained-multiarm_
 
 Example:
 ```shell
-echo "export VREP_IP=192.168.0.4" >> ~/.bashrc
+echo "export VREP_IP=127.0.0.1" >> ~/.bashrc
 echo 'export ROBOT_1_JSON_PATH="/home/moonshot/git/moonshot_robot_pc/catkin_ws/src/moonshot_control/robots/aisp_cobotta_robot_1.json"' >> ~/.bashrc
 echo 'export ROBOT_2_JSON_PATH="/home/moonshot/git/moonshot_robot_pc/catkin_ws/src/moonshot_control/robots/aisp_cobotta_robot_2.json"'  >> ~/.bashrc
 echo 'export ROBOT_3_JSON_PATH="/home/moonshot/git/moonshot_robot_pc/catkin_ws/src/moonshot_control/robots/aisp_vs050_robot_1.json"' >> ~/.bashrc
