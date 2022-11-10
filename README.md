@@ -63,6 +63,7 @@ sh install.sh
 ## Clone this repository
 
 ```shell
+cd ~/catkin_ws/src
 git clone https://github.com/AISciencePlatform/aisp_ros_control_template.git
 ```
 
@@ -72,21 +73,21 @@ git clone https://github.com/AISciencePlatform/aisp_ros_control_template.git
 |Variable| Meaning |
 |---|---|
 |`VREP_IP`|CoppeliaSim's computer IP.|
-|`ROBOT_1_JSON_PATH`|Usually `/home/user_name/aisp_ros_control_template/robots/aisp_cobotta_robot_1.json`|
-|`ROBOT_2_JSON_PATH`|Usually `/home/user_name/aisp_ros_control_template/robots/aisp_cobotta_robot_2.json`|
-|`ROBOT_3_JSON_PATH`|Usually `/home/user_name/aisp_ros_control_template/robots/aisp_vs050_robot_1.json`|
-|`ROBOT_4_JSON_PATH`|Usually `/home/user_name/aisp_ros_control_template/robots/aisp_vs050_robot_2.json`|
+|`ROBOT_1_JSON_PATH`|Usually `/home/user_name/catkin_ws/src/aisp_ros_control_template/robots/aisp_cobotta_robot_1.json`|
+|`ROBOT_2_JSON_PATH`|Usually `/home/user_name/catkin_ws/src/aisp_ros_control_template/robots/aisp_cobotta_robot_2.json`|
+|`ROBOT_3_JSON_PATH`|Usually `/home/user_name/catkin_ws/src/aisp_ros_control_template/robots/aisp_vs050_robot_1.json`|
+|`ROBOT_4_JSON_PATH`|Usually `/home/user_name/catkin_ws/src/aisp_ros_control_template/robots/aisp_vs050_robot_2.json`|
 
 Example:
 
-In this example the user is 'ubuntu' and the aisp_ros_control_template folder is in '/home/ubuntu/aisp_ros_control_template'. Furthermore, the CoppeliaSim scene is on the same computer.
+In this example the user is 'ubuntu' and the aisp_ros_control_template folder is in '/home/ubuntu/catkin_ws/src/aisp_ros_control_template'. Furthermore, the CoppeliaSim scene is on the same computer.
 
 ```shell
 echo "export VREP_IP=127.0.0.1" >> ~/.bashrc
-echo 'export ROBOT_1_JSON_PATH="/home/ubuntu/aisp_ros_control_template/robots/aisp_cobotta_robot_1.json"' >> ~/.bashrc
-echo 'export ROBOT_2_JSON_PATH="/home/ubuntu/aisp_ros_control_template/robots/aisp_cobotta_robot_2.json"'  >> ~/.bashrc
-echo 'export ROBOT_3_JSON_PATH="/home/ubuntu/aisp_ros_control_template/robots/aisp_vs050_robot_1.json"' >> ~/.bashrc
-echo 'export ROBOT_4_JSON_PATH="/home/ubuntu/aisp_ros_control_template/robots/aisp_vs050_robot_2.json"'  >> ~/.bashrc
+echo 'export ROBOT_1_JSON_PATH="/home/ubuntu/catkin_ws/src/aisp_ros_control_template/robots/aisp_cobotta_robot_1.json"' >> ~/.bashrc
+echo 'export ROBOT_2_JSON_PATH="/home/ubuntu/catkin_ws/src/aisp_ros_control_template/robots/aisp_cobotta_robot_2.json"'  >> ~/.bashrc
+echo 'export ROBOT_3_JSON_PATH="/home/ubuntu/catkin_ws/src/aisp_ros_control_template/robots/aisp_vs050_robot_1.json"' >> ~/.bashrc
+echo 'export ROBOT_4_JSON_PATH="/home/ubuntu/catkin_ws/src/aisp_ros_control_template/robots/aisp_vs050_robot_2.json"'  >> ~/.bashrc
 ```
 
 
