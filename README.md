@@ -93,7 +93,7 @@ echo 'export ROBOT_4_JSON_PATH="/home/ubuntu/aisp_ros_control_template/robots/ai
 
 ### Open the CoppeliaSim scene
 
-bla bla bla
+Follow the instructions [here](https://github.com/AISciencePlatform/aisp_coppeliasim_scenes/blob/main/README.md) to set up CoppeliaSim and open the scene.
 
 ### Start the simulation
 
