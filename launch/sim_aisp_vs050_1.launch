@@ -1,6 +1,6 @@
 <launch>
 <node pkg="sas_robot_driver" type="sas_robot_driver_ros_composer_node" name="arm3">
-<rosparam file="$(find moonshot_control)/cfg/sim_aisp_vs050_1.yaml" command="load"/>
+<rosparam file="$(find sas_robot_kinematics_constrained_multiarm)/cfg/sim_aisp_vs050_1.yaml" command="load"/>
 <!-- Use Enviroment Variable -->
 <rosparam subst_value="true">
     vrep_ip: $(env VREP_IP)
