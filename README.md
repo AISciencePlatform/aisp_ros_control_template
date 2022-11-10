@@ -10,6 +10,10 @@ sudo apt install git terminator cmake python3-pip libeigen3-dev mesa-common-dev 
 python3 -m pip install scipy
 ```
 
+```shell
+sudo apt-get install qt5-default
+```
+
 ### 2. [DQ Robotics library](https://dqrobotics.github.io/) (development PPA)
 
 ```shell
