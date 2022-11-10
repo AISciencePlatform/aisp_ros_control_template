@@ -18,6 +18,10 @@ sudo apt-get update
 sudo apt-get install libdqrobotics*
 ```
 
+```shell
+python3 -m pip install --user --pre dqrobotics
+```
+
 ### 3. [ROS Noetic Ninjemys](http://wiki.ros.org/noetic/Installation/Ubuntu)
 
 ```shell
@@ -105,6 +109,8 @@ Follow the instructions [here](https://github.com/AISciencePlatform/aisp_coppeli
 
 ###
 
+Open a new terminal and type:
+
 ```shell
 cd ~/catkin_ws/
 source devel/setup.bash
@@ -113,6 +119,10 @@ roslaunch aisp_ros_control_template run_simulation.launch --screen
 
 ###
 
+Open a new terminal and type:
+
 ```shell
-rosrun roslaunch aisp_ros_control_template aisp_kinematic_control_example.py
+cd ~/catkin_ws/
+source devel/setup.bash
+rosrun aisp_ros_control_template aisp_kinematic_control_example.py
 ```
