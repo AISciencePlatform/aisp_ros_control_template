@@ -30,6 +30,10 @@ sudo apt install ros-noetic-ros-base ros-noetic-pybind11-catkin -y
 ```shell
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/
+catkin_make
+source devel/setup.bash
 ```
 
 ### 4. Catkin tools
