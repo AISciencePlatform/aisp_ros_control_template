@@ -106,7 +106,7 @@ Follow the instructions [here](https://github.com/AISciencePlatform/aisp_coppeli
 ###
 
 ```shell
-cd catkin_ws
+cd ~/catkin_ws/
 source devel/setup.bash
 roslaunch aisp_ros_control_template run_simulation.launch --screen
 ```
