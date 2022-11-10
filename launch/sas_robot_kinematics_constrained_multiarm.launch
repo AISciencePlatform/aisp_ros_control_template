@@ -1,7 +1,7 @@
 <launch>
 
 <node pkg="sas_robot_kinematics_constrained_multiarm" type="sas_robot_kinematics_constrained_multiarm_node" name="sas_robot_kinematics_constrained_multiarm">
-<rosparam file="$(find sas_robot_kinematics_constrained_multiarm)/cfg/aisp_kinematics.yaml" command="load"/>
+<rosparam file="$(find aisp_ros_control_template)/cfg/aisp_kinematics.yaml" command="load"/>
 <!-- Use Enviroment Variable -->
 <rosparam subst_value="true">
     robot_parameter_file_paths: [$(env ROBOT_1_JSON_PATH),$(env ROBOT_2_JSON_PATH),$(env ROBOT_3_JSON_PATH),$(env ROBOT_4_JSON_PATH)]
