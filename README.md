@@ -1,4 +1,4 @@
-# ros-noetic-sas-robot-kinematics
+# aisp_ros_control_template
 
 ## Installation on Ubuntu 20.04 x64 LTS
 
