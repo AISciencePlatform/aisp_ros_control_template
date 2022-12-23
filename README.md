@@ -87,7 +87,7 @@ git clone https://github.com/AISciencePlatform/aisp_ros_control_template.git
 
 Example:
 
-In this example the user is 'ubuntu' and the aisp_ros_control_template folder is in '/home/ubuntu/catkin_ws/src/aisp_ros_control_template'. Furthermore, the CoppeliaSim scene is on the same computer.
+In this example the user is `ubuntu` and the aisp_ros_control_template folder is in `/home/ubuntu/catkin_ws/src/aisp_ros_control_template`. Furthermore, the CoppeliaSim scene is on the same computer.
 
 ```shell
 echo "export VREP_IP=127.0.0.1" >> ~/.bashrc
@@ -105,13 +105,10 @@ echo 'export ROBOT_4_JSON_PATH="/home/ubuntu/catkin_ws/src/aisp_ros_control_temp
 
 ![Screenshot 2022-11-10 125810](https://user-images.githubusercontent.com/23158313/200997347-1e8ea0d3-edbf-434e-ba22-19b27415e537.png)
 
-- Click on "Start Simuation"
+- Click on :stop_button: to make sure the simulation is not running.
 
 
-
-### 
-
-###
+### Running the ROS node infrastructure.
 
 Open a new terminal and type:
 
@@ -121,7 +118,9 @@ source devel/setup.bash
 roslaunch aisp_ros_control_template run_simulation.launch --screen
 ```
 
-###
+You can stop the program by pressing `CTRC+C` at any time on this terminal.
+
+### Running the motion script example.
 
 Open a new terminal and type:
 
@@ -130,3 +129,5 @@ cd ~/catkin_ws/
 source devel/setup.bash
 rosrun aisp_ros_control_template aisp_kinematic_control_example.py
 ```
+
+Modify the `aisp_kinematic_control_example.py` according to your needs.
