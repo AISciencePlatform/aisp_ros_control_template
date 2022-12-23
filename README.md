@@ -99,7 +99,7 @@ echo 'export ROBOT_4_JSON_PATH="/home/ubuntu/catkin_ws/src/aisp_ros_control_temp
 
 
 
-### Open the CoppeliaSim scene and start the simulation
+### Open the CoppeliaSim scene
 
 - Follow the instructions [here](https://github.com/AISciencePlatform/aisp_coppeliasim_scenes/blob/main/README.md) to set up CoppeliaSim and open the scene.
 
