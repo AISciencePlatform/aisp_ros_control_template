@@ -31,6 +31,12 @@ sudo apt update
 sudo apt install ros-noetic-ros-base ros-noetic-pybind11-catkin -y
 ```
 
+### 4. Catkin tools
+
+```shell
+sudo python3 -m pip install git+https://github.com/catkin/catkin_tools.git
+```
+
 ```shell
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
@@ -38,12 +44,6 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 catkin config --profile release -x _release --cmake-args -DCMAKE_BUILD_TYPE=Release
 catkin build --profile release
-```
-
-### 4. Catkin tools
-
-```shell
-sudo python3 -m pip install git+https://github.com/catkin/catkin_tools.git
 ```
 
 ### 5. [qpOASES](https://github.com/coin-or/qpOASES)
