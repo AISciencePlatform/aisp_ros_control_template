@@ -36,7 +36,8 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
-catkin_make
+catkin config --profile release -x _release --cmake-args -DCMAKE_BUILD_TYPE=Release
+catkin build --profile release
 ```
 
 ### 4. Catkin tools
@@ -58,7 +59,6 @@ make -j20
 sudo make install
 sudo ldconfig
 ```
-
 
 ## [Install SmartArmStack](https://github.com/SmartArmStack/smart_arm_stack_researchonly/releases/tag/v22.11.8150150)
 
